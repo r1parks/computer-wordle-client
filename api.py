@@ -4,7 +4,6 @@ import requests
 from urllib.parse import urljoin
 
 BASE_URL = 'https://wordle.bobparks.info'
-BASE_URL = 'http://localhost:8080'
 
 
 def start_new_game():
