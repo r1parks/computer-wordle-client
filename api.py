@@ -9,7 +9,6 @@ BASE_URL = 'https://wordle.bobparks.info'
 def start_new_game():
     url = urljoin(BASE_URL, 'new/')
     response = requests.get(url)
-    print(str(response))
     return response.json()
 
 

@@ -35,6 +35,7 @@ def main():
                         word for word in possible_words
                         if guess_word[idx] in word and word != guess_word
                     ]
+    print(f"Done. Results at {game.url()}")
     webbrowser.open(game.url())
 
 
