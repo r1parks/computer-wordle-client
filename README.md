@@ -41,3 +41,7 @@ response = my_game.guess(word_to_guess)
 ### Process the response
 
 The response uses `.` to represent a grey square, `Y` to represent a yellow square, and `G` to represent a green square. So the response to a guess might look like `.GYYG` to represent ⬜🟩🟨🟨🟩.
+
+### Move on to the next word
+
+Instead of one word per day, the daily challenge is 50 words back to back. The goal is to get all 50 words with the least guesses. Once you submit a correct guess for a word, the response will contain a 'next_hint' field which is the hint for the next word. Once the current_hint is None it means you've finshed the challenge.
