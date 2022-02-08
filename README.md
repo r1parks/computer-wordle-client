@@ -18,7 +18,7 @@ Success!
 
 ```
 import computer_wordle
-my_new_game = computer_wordle.Game()
+my_game = computer_wordle.Game()
 ```
 
 ### Make a first guess
